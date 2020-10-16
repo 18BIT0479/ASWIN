@@ -1,0 +1,108 @@
+PROCESS OF GITHUB METHODOLOGY
+
+ABOUT  GITHUB:
+	GitHub is a highly used software that is typically used for version control. It is helpful when more than just one person is working on a project. Say for example, a software developer team wants to build a website and everyone has to update their codes simultaneously while working on the project. In this case, Github helps them to build a centralized repository where everyone can upload, edit, and manage the code files.
+
+POPULARE OF GITHUB:
+
+	GitHub has various advantages but many people often have a doubt as to why not use dropbox or any cloud based system? Let me take the same example forward to answer this question. Say more than two software developers are working on the same file and they want to update it simultaneously. Unfortunately, the person who save the file first will get precedence over the others. While in Github, this is not the case. Github document the changes and reflect them in an organized manner to avoid any chaos between any of the files uploaded.
+
+CREATE A GITHUB RESPODITORY: 
+
+	A repository is a storage space where your project lives. It can be local to a folder on your computer, or it can be a storage space on GitHub  or another online host. You can keep code files, text files, images or any kind of a file in a repository. You need a GitHub repository when you have done some changes and are ready to be uploaded. This GitHub repository acts as your remote repository. So let me make your task easy, just follow these simple steps to create a GitHub repository
+	Go to the link: https://github.com/ . Fill the sign up form and click on Sign up for Github.
+	Click on Start a new project.
+
+CREATE BRANCHES AND PERFORM OPERATIONS :
+
+	Branches help you to work on different versions of a repository at one time. Let’s say you want to add a new feature (which is in the development phase), and you are afraid at the same time whether to make changes to your main project or not. This is where git branching comes to rescue. Branches allow you to move back and forth between the different states/versions of a project. In the above scenario, you can create a new branch and test the new feature without affecting the main branch. Once you are done with it, you can merge the changes from new branch to the main branch. Here the main branch is the master branch, which is there in your repository by default. Refer to the below image for better understanding.
+
+COMMIT COMMAND: 
+	This operation helps you to save the changes in your file. When you commit a file, you should always provide the message, just to keep in the mind the changes done by you. Though this message is not compulsory but it is always recommended so that it can differentiate the various versions or commits you have done so far to your repository. These commit messages maintain the history of changes which in turn help other contributors to understand the file better.
+
+1.	Click on readme- changes file which we have just created.
+2.	Click on the edit or a pencil icon in the right most corner of the file.
+3.	Once you click on that, an editor will open where you can type in the changes   or anything.  
+4.	Write a commit message which identifies your changes.
+5.	Click commit changes in the end.
+
+PULL COMMAND:
+	Pull command is the most important command in GitHub. It tell the changes done in the file and request other contributors to view it as well as merge it with the master branch. Once the commit is done, anyone can pull the file and can start a discussion over it. Once its all done, you can merge the file. Pull command compares the changes which are done in the file and if there are any conflicts, you can manually resolve it.
+
+•	Click the Pull requests tab.
+•	Click New pull request.
+•	Once you click on pull request, select the branch and click readme- changes file to view changes between the two files present in our repository.
+•	Click Create pull request.
+•	Enter any title, description to your changes and click on Create pull request.
+
+MERGE COMMAND:
+	Here comes the last command which merge the changes into the main master branch. We saw the changes in pink and green color, now lets merge the readme- changes file with the master branch/ read-me.
+•	Click on Merge pull request to merge the changes into master branch.
+•	Click Confirm merge.
+•	You can delete the branch once all the changes have been incorporated and if there are no conflicts.
+
+CLONING AND FORKING GITHUB REPOSITORY :
+
+CLONING:
+	Before I actually talk about cloning a GitHub repository, first let us understand why do we need to clone a repository. The answer is simple! Suppose you want to use some code which is present in a public repository, you can directly copy the contents by cloning or downloading.
+
+FORKING:
+	First, let us talk about why do we need forking. Suppose, you need some code which is present in a public repository, under your repository and GitHub account. For this, we need to fork a repository.
+
+
+
+PROS AND CONS OF GITHUB:
+PROS
+
+	The best part of this software, in my opinion, has to be the repository insights that comes with the pro version and above. These insights have proven to be extremely valuable when managing larger-scale projects with multiple developers working on the projects. 
+	Not only is our project management team able to get live updates on the progress of the project with each commit, but our team is also able to hold each other accountable by seeing their progress via the progress tracking feature and individual commits.
+	Another notable mention for Github is their desktop GUI. This is such an incredibly easy tool to use and it makes the entire GIT experience much easier to understand and maneuver.
+
+
+CONS
+
+
+	The one issue i had with this software is the repo search functionality. This part of the software can be confusing to learn to be effective with and it takes some time to be proficient with, which can be a hassle for some of our newer members of our project management team.
+
+	Nothing much to say here. GitHub can be a bit overwhelming for a beginner but IMO they have been addressing this and making it much more comfortable to get started using. 
+
+	I’d like to see more of the same in other areas as well. Solving merge conflicts in GitHub was the only time I was ever frustrated with the tool.
+
+FEATURES NEEDS TO BE ADDED:
+•	hatchedLayer and legendHatched functions.
+•	pngLayer and getPngLayer functions.
+•	wordcloudLayer function.
+•	An image can be now found on /inst/img/, for testing purposes.
+•	An image can be now found on /inst/img/, for testing purposes.
+
+
+COMPARISON OF VERSION CONTROL APPLICATIONS:
+Version
+control application	Git	CVS	SVN
+Introductio n	Git is one of the best version control tools that	It is yet another most popular revision control system. CVS has been	Apache Subversion, abbreviated as SVN aims at to be a best-matched
+ 
+	is available in the present market.	the tool of choice for a long time.	successor to the widely used CVS tool that we just discussed above.
+Features	•	Pluggable merge strategies.
+•	Toolkit- based design.
+•	Periodic explicit object packing.	•	Anonymous read access.
+•	‘Update’ command to keep local copies up to date.
+•	Can uphold different branches of a project.	•	Supports atomic commits.
+•	Versioned symbolic links.
+•	Free-form versioned metadata.
+Pros	•	Cross- platform
+•	Code changes can be very easily and clearly tracked.
+•	Easily maintainab le and robust.	•	Helpful support from vast CVS community
+•	allows good web browsing of the source code repository
+•	It’s a very old, well known & understood tool.	•	Supports empty directories.
+•	Have better windows support as compared to Git.
+•	Easy to set up and administer.
+Cons	•	Complex and bigger history log become difficult to understand
+.
+•	Does not support keyword expansion and timestamp preservatio n.	•	Poor support for distributed source control.
+•	Does not support signed revisions and merge tracking.	•	Does not store the modification time of files.
+•	Does not deal well with filename normalization.
+•	Does not support signed revisions.
+Open source	Yes	Yes	Yes
+Cost	Free	Free	Free
+Website	https://git- scm.com/	http://savannah.nongnu.o rg/
+https://subversion.apache.o rg/
